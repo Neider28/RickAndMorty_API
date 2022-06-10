@@ -65,6 +65,50 @@ main {
     background: rgb(60, 62, 68);
 }
 
+.spinner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.lds-dual-ring {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 94px;
+    height: 94px;
+    margin: auto 0;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: 6px solid #ecd504;
+    border-color: #ecd504 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+.lds-dual-ring::before {
+    content: "Loading...";
+    position: relative;
+    top: 85px;
+    left: 22px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    color: white;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .container {
     width: 250px;
     height: auto;

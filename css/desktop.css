@@ -22,3 +22,12 @@ header:before {
 .card {
     margin-bottom: 25px;
 }
+
+.lds-dual-ring:after {
+    margin-top: 30px;
+}
+
+.lds-dual-ring::before {
+    top: 90px;
+    left: 22px;
+}
