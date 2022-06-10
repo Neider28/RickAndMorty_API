@@ -1,0 +1,66 @@
+header {
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+    background-image: url("https://media.vandalsports.com/i/640x360/5-2022/202251816546_1.jpg");
+}
+
+header:before {
+    width: 100%;
+    height: 300px;
+}
+
+.header-tittle {
+    width: 500px;
+    height: 180px;
+}
+
+.header-description {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 625px;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.info h3 {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+
+.info .github {
+    width: 40px;
+    height: 40px;
+}
+
+.info p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
